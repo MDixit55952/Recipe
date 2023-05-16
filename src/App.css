@@ -1,0 +1,150 @@
+/* .heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* App.css */
+
+/* Colors */
+:root {
+  --primary-color: #ff6f61; /* Your primary color */
+  --secondary-color: #457b9d; /* Your secondary color */
+  --text-color: #333; /* Text color */
+  --background-color: #f8f9fa; /* Background color */
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Heading Styles */
+.heading {
+  color: black;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* SearchBar Component */
+.SearchBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.SearchBar input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* RecipeList Component */
+.RecipeList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.RecipeCard {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.RecipeCard img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.RecipeCard h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.RecipeCard p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Food Images */
+.food-images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.food-images img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styles */
+button {
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #355070;
+}
